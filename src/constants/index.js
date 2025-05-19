@@ -221,14 +221,7 @@ import {
       image: "https://randomuser.me/api/portraits/men/5.jpg",
    },
    
-     {
-      testimonial:
-         " She is a good developer in the industry.",
-      name: "Selman Yilmaz",
-      designation: "CEO",
-      company: "Group Taiga",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-   },
+
 
   ];
   
