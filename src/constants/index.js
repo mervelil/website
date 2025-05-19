@@ -13,14 +13,15 @@ import {
     nodejs,
     mongodb,
     git,
+    apple,
     figma,
     docker,
     desi,
     mimeda,
     fsm,
     sap,
-    shopify,
     carrent,
+    grad,
     jobit,
     tripguide,
     threejs,
@@ -32,9 +33,10 @@ import {
     php,
     py,
     vue,
+    images,
   } from "../assets";
 
-  import{mimeda}  from "../assets/company";
+
   
   export const navLinks = [
     {
@@ -53,11 +55,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "Data Analysis",
+      title: "Data Analyst",
       icon: mobile,
     },
     {
@@ -65,7 +67,7 @@ import {
       icon: backend,
     },
     {
-      title: "Computer Vision",
+      title: "Computer Vision Specialist",
       icon: creator,
     },
   ];
@@ -133,7 +135,7 @@ import {
         {
       title: "Web Developer",
       company_name: "MIGROS MEDIA DATA-MIMEDA",
-      icon: mi,
+      icon: mimeda,
       iconBg: "#383E56",
       date: "DECEMBER 2024- MAY 2025",
       points: [
@@ -146,7 +148,7 @@ import {
             {
       title: "Computer Vision Developer",
       company_name: "MEGA MERCHANT",
-      icon: mi,
+      icon: images,
       iconBg: "#383E56",
       date: "",
       points: [
@@ -208,31 +210,33 @@ import {
     },
   ];
   
-  // const testimonials = [
-  //   {
-  //     testimonial:
-  //       "I thought it was impossible to make a website  as beautiful as our product, but Merve proved me wrong.",
-  //     name: "Selin Yilmaz",
-  //     designation: "CFO",
-  //     company: "Group Taiga",
-  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  //   },
-  //   {
-  //     testimonial:
-  //       "I've never met a web developer who truly cares about their clients' success like Merve does.",
-  //     name: "Selman Yilmaz",
-  //     designation: "CEO",
-  //     company: "Group Taiga",
-  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  //   },
+   const testimonials = [
 
-  // ];
+     {
+       testimonial:
+         " She is a good developer in the industry.",
+      name: "Selman Yilmaz",
+      designation: "CEO",
+      company: "Group Taiga",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
+   },
+   
+     {
+      testimonial:
+         " She is a good developer in the industry.",
+      name: "Selman Yilmaz",
+      designation: "CEO",
+      company: "Group Taiga",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
+   },
+
+  ];
   
   const projects = [
         {
-      name: "Dominant Color Detection with Fashion Garments",
+      name: "Dominant Color Detection",
       description:
-        "This project aims to automatically detect the dominant color in fashion garments using image processing and machine learning techniques. By analyzing clothing images, the system identifies the most prominent color, which can be used for fashion search etc.",
+        "This project aims to automatically detect the dominant color in fashion garments using image processing and machine learning techniques. ",
       tags: [
         {
           name: "python",
@@ -247,7 +251,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: grad,
       source_code_link: "https://github.com/mervelil/graduation",
     },
     {
@@ -315,4 +319,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences,testimonials,projects };

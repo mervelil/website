@@ -33,9 +33,11 @@ import desi from "./company/desi.png";
 import fsm from "./company/fsm.png";
 import sap from "./company/sap.png";
 import carrent from "./carrent.png";
+import grad from "./grad.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import mimeda from "./company/mimeda.png"
+import images from "./company/images.png";
 export {
   logo,
   backend,
@@ -44,6 +46,7 @@ export {
   web,
   github,
   menu,
+  grad,
   close,
   css,
   docker,
@@ -73,4 +76,6 @@ export {
   desi,
   fsm,
   sap,
+  mimeda,
+  images,
 };
